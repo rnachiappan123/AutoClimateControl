@@ -1,4 +1,6 @@
-﻿namespace TimerControllerLib
+﻿using ITemperatureRegulatorLib;
+
+namespace TemperatureRegulatorLib
 {
 
     public class TemperatureRegulator : ITemperatureRegulator

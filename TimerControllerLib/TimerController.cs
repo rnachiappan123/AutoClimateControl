@@ -1,4 +1,5 @@
 ﻿using Timer = System.Timers.Timer;
+using ITimerControllerLib;
 
 namespace TimerControllerLib
 {

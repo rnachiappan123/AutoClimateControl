@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureRegulatorLib", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureCalculatorLib", "TemperatureCalculator\TemperatureCalculatorLib.csproj", "{C3405B28-C168-4C09-ABD7-39C222D53D22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITemperatureCalculatorLib", "ITemperatureCalculator\ITemperatureCalculatorLib.csproj", "{EB492997-2B81-4BF1-AF6F-010877E6C7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITemperatureRegulatorLib", "ITemperatureRegulatorLib\ITemperatureRegulatorLib.csproj", "{B42AC07D-3E00-4975-A5DC-228E2C811D73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITimerControllerLib", "ITimerControllerLib\ITimerControllerLib.csproj", "{53855640-AF00-42A6-807B-D1521EEC4519}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +39,18 @@ Global
 		{C3405B28-C168-4C09-ABD7-39C222D53D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3405B28-C168-4C09-ABD7-39C222D53D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3405B28-C168-4C09-ABD7-39C222D53D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB492997-2B81-4BF1-AF6F-010877E6C7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB492997-2B81-4BF1-AF6F-010877E6C7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB492997-2B81-4BF1-AF6F-010877E6C7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB492997-2B81-4BF1-AF6F-010877E6C7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B42AC07D-3E00-4975-A5DC-228E2C811D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B42AC07D-3E00-4975-A5DC-228E2C811D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B42AC07D-3E00-4975-A5DC-228E2C811D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B42AC07D-3E00-4975-A5DC-228E2C811D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53855640-AF00-42A6-807B-D1521EEC4519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53855640-AF00-42A6-807B-D1521EEC4519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53855640-AF00-42A6-807B-D1521EEC4519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53855640-AF00-42A6-807B-D1521EEC4519}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

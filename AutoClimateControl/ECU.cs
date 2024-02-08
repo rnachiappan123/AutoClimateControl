@@ -1,4 +1,7 @@
-﻿namespace AutoClimateControl
+﻿using ITemperatureCalculatorLib;
+using ITemperatureRegulatorLib;
+
+namespace AutoClimateControl
 {
     public class ECU
     {

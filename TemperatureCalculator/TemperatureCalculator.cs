@@ -1,6 +1,7 @@
-﻿namespace TimerControllerLib
-{
+﻿using ITemperatureCalculatorLib;
 
+namespace TemperatureCalculatorLib
+{
 
     public class TemperatureCalculator : ITemperatureCalculator
     {
@@ -10,3 +11,4 @@
         }
     }
 }
+   

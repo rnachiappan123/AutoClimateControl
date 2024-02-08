@@ -1,4 +1,6 @@
-﻿namespace AutoClimateControl
+﻿using ITimerControllerLib;
+
+namespace AutoClimateControl
 {
 
     public class OutsideTemperatureSensor : IOutsideTemperatureSensor

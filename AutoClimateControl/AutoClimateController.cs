@@ -1,4 +1,8 @@
-﻿namespace AutoClimateControl
+﻿using TemperatureCalculatorLib;
+using TemperatureRegulatorLib;
+using TimerControllerLib;
+
+namespace AutoClimateControl
 {
     public class AutoClimateController
     {
