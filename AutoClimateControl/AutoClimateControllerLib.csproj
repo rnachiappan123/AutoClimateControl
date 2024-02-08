@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECULib\ECULib.csproj" />
+    <ProjectReference Include="..\OutsideTemperatureSensor\OutsideTemperatureSensorLib.csproj" />
+    <ProjectReference Include="..\PassengerCountSensorLib\PassengerCountSensorLib.csproj" />
+    <ProjectReference Include="..\TemperatureCalculatorLib\TemperatureCalculatorLib.csproj" />
+    <ProjectReference Include="..\TemperatureRegulatorLib\TemperatureRegulatorLib.csproj" />
+    <ProjectReference Include="..\TimerControllerLib\TimerControllerLib.csproj" />
+  </ItemGroup>
+
+</Project>
