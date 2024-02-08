@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AutoClimateControllerLib\AutoClimateControllerLib.csproj" />
+    <ProjectReference Include="..\ECULib\ECULib.csproj" />
     <ProjectReference Include="..\ITemperatureCalculator\ITemperatureCalculatorLib.csproj" />
     <ProjectReference Include="..\ITemperatureRegulatorLib\ITemperatureRegulatorLib.csproj" />
     <ProjectReference Include="..\ITimerControllerLib\ITimerControllerLib.csproj" />

@@ -1,4 +1,7 @@
-﻿namespace AutoClimateControl;
+﻿using ECULib;
+using AutoClimateControllerLib;
+
+namespace AutoClimateControl;
 
 class Program
 {
