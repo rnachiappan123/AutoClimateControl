@@ -1,10 +1,5 @@
 ﻿namespace AutoClimateControl
 {
-    public interface IPassengerCountSensor
-    {
-        void RegisterObserver(ECU observer);
-        void RemoveObserver();
-    }
 
     public class PassengerCountSensor : IPassengerCountSensor
     {

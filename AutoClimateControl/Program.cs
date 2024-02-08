@@ -10,8 +10,6 @@ class Program
 
         climateController.On();
 
-        Console.WriteLine("Auto climate control is on. Waiting for sensor data...");
-
         System.Threading.Thread.Sleep(30000);
 
         climateController.Off();

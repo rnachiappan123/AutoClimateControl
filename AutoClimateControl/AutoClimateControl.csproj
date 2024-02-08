@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TemperatureCalculator\TemperatureCalculatorLib.csproj" />
+    <ProjectReference Include="..\TemperatureRegulatorLib\TemperatureRegulatorLib.csproj" />
+    <ProjectReference Include="..\TimerControllerLib\TimerControllerLib.csproj" />
+  </ItemGroup>
+
 </Project>

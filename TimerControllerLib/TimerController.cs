@@ -1,8 +1,8 @@
 ﻿using Timer = System.Timers.Timer;
 
-namespace AutoClimateControl
+namespace TimerControllerLib
 {
-    
+
 
     public class TimerController : ITimerController
     {

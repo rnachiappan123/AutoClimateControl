@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoClimateControl", "AutoClimateControl\AutoClimateControl.csproj", "{212DB1F0-04E6-4185-9E3F-BD23513BAD47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoClimateControl", "AutoClimateControl\AutoClimateControl.csproj", "{212DB1F0-04E6-4185-9E3F-BD23513BAD47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerControllerLib", "TimerControllerLib\TimerControllerLib.csproj", "{73C9115E-B045-41E6-AB85-908218F82DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureRegulatorLib", "TemperatureRegulatorLib\TemperatureRegulatorLib.csproj", "{B9A3E763-874A-4892-B576-49AA73052E08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureCalculatorLib", "TemperatureCalculator\TemperatureCalculatorLib.csproj", "{C3405B28-C168-4C09-ABD7-39C222D53D22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{212DB1F0-04E6-4185-9E3F-BD23513BAD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{212DB1F0-04E6-4185-9E3F-BD23513BAD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{212DB1F0-04E6-4185-9E3F-BD23513BAD47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C9115E-B045-41E6-AB85-908218F82DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C9115E-B045-41E6-AB85-908218F82DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C9115E-B045-41E6-AB85-908218F82DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C9115E-B045-41E6-AB85-908218F82DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A3E763-874A-4892-B576-49AA73052E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A3E763-874A-4892-B576-49AA73052E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A3E763-874A-4892-B576-49AA73052E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A3E763-874A-4892-B576-49AA73052E08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3405B28-C168-4C09-ABD7-39C222D53D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3405B28-C168-4C09-ABD7-39C222D53D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3405B28-C168-4C09-ABD7-39C222D53D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3405B28-C168-4C09-ABD7-39C222D53D22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

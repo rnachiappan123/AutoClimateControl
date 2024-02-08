@@ -1,4 +1,4 @@
-﻿namespace AutoClimateControl
+﻿namespace TimerControllerLib
 {
 
     public class TemperatureRegulator : ITemperatureRegulator

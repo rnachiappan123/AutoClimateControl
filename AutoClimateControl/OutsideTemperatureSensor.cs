@@ -1,10 +1,5 @@
 ﻿namespace AutoClimateControl
 {
-    public interface IOutsideTemperatureSensor
-    {
-        void RegisterObserver(ECU observer);
-        void RemoveObserver();
-    }
 
     public class OutsideTemperatureSensor : IOutsideTemperatureSensor
     {
