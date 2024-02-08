@@ -1,6 +1,8 @@
 ﻿using ITimerControllerLib;
+using IOutSideTemperatureSensorLib;
+using ECULib;
 
-namespace AutoClimateControl
+namespace OutsideTemperatureSensorLib
 {
 
     public class OutsideTemperatureSensor : IOutsideTemperatureSensor

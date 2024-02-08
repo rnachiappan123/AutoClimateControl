@@ -5,17 +5,29 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoClimateControl", "AutoClimateControl\AutoClimateControl.csproj", "{212DB1F0-04E6-4185-9E3F-BD23513BAD47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerControllerLib", "TimerControllerLib\TimerControllerLib.csproj", "{73C9115E-B045-41E6-AB85-908218F82DD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimerControllerLib", "TimerControllerLib\TimerControllerLib.csproj", "{73C9115E-B045-41E6-AB85-908218F82DD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureRegulatorLib", "TemperatureRegulatorLib\TemperatureRegulatorLib.csproj", "{B9A3E763-874A-4892-B576-49AA73052E08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureRegulatorLib", "TemperatureRegulatorLib\TemperatureRegulatorLib.csproj", "{B9A3E763-874A-4892-B576-49AA73052E08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureCalculatorLib", "TemperatureCalculator\TemperatureCalculatorLib.csproj", "{C3405B28-C168-4C09-ABD7-39C222D53D22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureCalculatorLib", "TemperatureCalculator\TemperatureCalculatorLib.csproj", "{C3405B28-C168-4C09-ABD7-39C222D53D22}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITemperatureCalculatorLib", "ITemperatureCalculator\ITemperatureCalculatorLib.csproj", "{EB492997-2B81-4BF1-AF6F-010877E6C7DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITemperatureRegulatorLib", "ITemperatureRegulatorLib\ITemperatureRegulatorLib.csproj", "{B42AC07D-3E00-4975-A5DC-228E2C811D73}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITimerControllerLib", "ITimerControllerLib\ITimerControllerLib.csproj", "{53855640-AF00-42A6-807B-D1521EEC4519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOutsideTemperatureSensorLib", "IOutsideTemperatureSensorLib\IOutsideTemperatureSensorLib.csproj", "{8824B98F-567B-4907-B9E5-D1CEA999A686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutsideTemperatureSensorLib", "OutsideTemperatureSensorLib\OutsideTemperatureSensorLib.csproj", "{0FE22610-017E-443E-984B-951D6F6305BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPassengerCountSensorLib", "IPassengerCountSensorLib\IPassengerCountSensorLib.csproj", "{88DDE2AB-F5C0-4227-8040-F02361BF356B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassengerCountSensorLib", "PassengerCountSensorLib\PassengerCountSensorLib.csproj", "{1C2D9EC9-B086-4A79-BF9C-9634E479E366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECULib", "ECULib\ECULib.csproj", "{B755E505-F5E7-4E85-82DB-363495AE2C98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoClimateControllerLib", "AutoClimateControllerLib\AutoClimateControllerLib.csproj", "{D9309B4E-7551-4356-8158-8BB8D695A1ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +63,30 @@ Global
 		{53855640-AF00-42A6-807B-D1521EEC4519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53855640-AF00-42A6-807B-D1521EEC4519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53855640-AF00-42A6-807B-D1521EEC4519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8824B98F-567B-4907-B9E5-D1CEA999A686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8824B98F-567B-4907-B9E5-D1CEA999A686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8824B98F-567B-4907-B9E5-D1CEA999A686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8824B98F-567B-4907-B9E5-D1CEA999A686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE22610-017E-443E-984B-951D6F6305BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE22610-017E-443E-984B-951D6F6305BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE22610-017E-443E-984B-951D6F6305BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE22610-017E-443E-984B-951D6F6305BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88DDE2AB-F5C0-4227-8040-F02361BF356B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DDE2AB-F5C0-4227-8040-F02361BF356B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DDE2AB-F5C0-4227-8040-F02361BF356B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DDE2AB-F5C0-4227-8040-F02361BF356B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2D9EC9-B086-4A79-BF9C-9634E479E366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2D9EC9-B086-4A79-BF9C-9634E479E366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2D9EC9-B086-4A79-BF9C-9634E479E366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2D9EC9-B086-4A79-BF9C-9634E479E366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B755E505-F5E7-4E85-82DB-363495AE2C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B755E505-F5E7-4E85-82DB-363495AE2C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B755E505-F5E7-4E85-82DB-363495AE2C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B755E505-F5E7-4E85-82DB-363495AE2C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9309B4E-7551-4356-8158-8BB8D695A1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9309B4E-7551-4356-8158-8BB8D695A1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9309B4E-7551-4356-8158-8BB8D695A1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9309B4E-7551-4356-8158-8BB8D695A1ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

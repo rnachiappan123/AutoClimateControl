@@ -1,6 +1,8 @@
 ﻿using ITimerControllerLib;
+using IPassengerCountSensorLib;
+using ECULib;
 
-namespace AutoClimateControl
+namespace PassengerCountSensorLib
 {
 
     public class PassengerCountSensor : IPassengerCountSensor
