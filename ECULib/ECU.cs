@@ -1,12 +1,14 @@
-﻿using IECUObserverLib;
+﻿using IECUSystemLib;
+using IECUObserverLib;
 using IOutsideTemperatureSensorLib;
 using IPassengerCountSensorLib;
 using ITemperatureCalculatorLib;
 using ITemperatureRegulatorLib;
 
+
 namespace ECULib
 {
-    public class ECU : IECUObserver
+    public class ECU : IECUObserver, IECUSystem
     {
         public IOutsideTemperatureSensor? temperatureSensor;
         public IPassengerCountSensor? passengerCountSensor;
@@ -56,6 +58,26 @@ namespace ECULib
         {
             lastReadPassengerCount = newCount;
             SetNewTemperature();
+        }
+
+        public void ActivateTemperatureSensor()
+        {
+            temperatureSensor?.RegisterObserver(this);
+        }
+
+        public void ActivatePassengerCountSensor()
+        {
+            passengerCountSensor?.RegisterObserver(this);
+        }
+
+        public void DeactivateTemperatureSensor()
+        {
+            temperatureSensor?.RemoveObserver();
+        }
+
+        public void DeactivatePassengerCountSensor()
+        {
+            passengerCountSensor?.RemoveObserver();
         }
     }
 }

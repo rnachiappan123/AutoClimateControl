@@ -7,8 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IECULib\IECUObserverLib.csproj" />
-    <ProjectReference Include="..\IECUSystemLib\IECUSystemLib.csproj" />
     <ProjectReference Include="..\IOutsideTemperatureSensorLib\IOutsideTemperatureSensorLib.csproj" />
     <ProjectReference Include="..\IPassengerCountSensorLib\IPassengerCountSensorLib.csproj" />
     <ProjectReference Include="..\ITemperatureCalculator\ITemperatureCalculatorLib.csproj" />

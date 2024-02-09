@@ -4,14 +4,15 @@ using PassengerCountSensorLib;
 using TemperatureCalculatorLib;
 using TemperatureRegulatorLib;
 using TimerControllerLib;
+using IECUSystemLib;
 
 namespace AutoClimateControllerLib
 {
     public class AutoClimateController
     {
-        private readonly ECU ecu;
+        private readonly IECUSystem ecu;
 
-        public AutoClimateController(ECU ecuInstance)
+        public AutoClimateController(IECUSystem ecuInstance)
         {
             ecu = ecuInstance;
             ecu.SetOutsideTemperatureSensor(new OutsideTemperatureSensor(new TimerController()));
@@ -22,14 +23,14 @@ namespace AutoClimateControllerLib
 
         public void On()
         {
-            ecu.temperatureSensor?.RegisterObserver(ecu);
-            ecu.passengerCountSensor?.RegisterObserver(ecu);
+            ecu.ActivateTemperatureSensor();
+            ecu.ActivatePassengerCountSensor();
         }
 
         public void Off()
         {
-            ecu.temperatureSensor?.RemoveObserver();
-            ecu.passengerCountSensor?.RemoveObserver();
+            ecu.DeactivateTemperatureSensor();
+            ecu.DeactivatePassengerCountSensor();
         }
     }
 }

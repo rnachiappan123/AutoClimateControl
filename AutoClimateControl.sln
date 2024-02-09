@@ -3,31 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoClimateControllerLib", "AutoClimateControl\AutoClimateControllerLib.csproj", "{E51E3871-AF46-4DF6-8E08-3FA3D0520C06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoClimateControllerLib", "AutoClimateControl\AutoClimateControllerLib.csproj", "{E51E3871-AF46-4DF6-8E08-3FA3D0520C06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECULib", "ECULib\ECULib.csproj", "{295526D7-7ED4-418E-B153-AA861BEE3350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECULib", "ECULib\ECULib.csproj", "{295526D7-7ED4-418E-B153-AA861BEE3350}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOutsideTemperatureSensorLib", "IOutsideTemperatureSensorLib\IOutsideTemperatureSensorLib.csproj", "{398B8343-FCE5-4D1A-A2B4-F67216136161}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOutsideTemperatureSensorLib", "IOutsideTemperatureSensorLib\IOutsideTemperatureSensorLib.csproj", "{398B8343-FCE5-4D1A-A2B4-F67216136161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutsideTemperatureSensorLib", "OutsideTemperatureSensor\OutsideTemperatureSensorLib.csproj", "{A8704D3B-9069-45EA-BC0D-288FCA954D8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutsideTemperatureSensorLib", "OutsideTemperatureSensor\OutsideTemperatureSensorLib.csproj", "{A8704D3B-9069-45EA-BC0D-288FCA954D8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPassengerCountSensorLib", "IPassengerCountSensorLib\IPassengerCountSensorLib.csproj", "{5BFC297F-DAFE-4A59-B688-A98E78B01A8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IPassengerCountSensorLib", "IPassengerCountSensorLib\IPassengerCountSensorLib.csproj", "{5BFC297F-DAFE-4A59-B688-A98E78B01A8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassengerCountSensorLib", "PassengerCountSensorLib\PassengerCountSensorLib.csproj", "{46799139-FC3F-48DA-9974-D3D1576C8378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassengerCountSensorLib", "PassengerCountSensorLib\PassengerCountSensorLib.csproj", "{46799139-FC3F-48DA-9974-D3D1576C8378}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITemperatureCalculatorLib", "ITemperatureCalculator\ITemperatureCalculatorLib.csproj", "{970CC9CF-9962-427B-933B-2B8EEA7FFC94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITemperatureCalculatorLib", "ITemperatureCalculator\ITemperatureCalculatorLib.csproj", "{970CC9CF-9962-427B-933B-2B8EEA7FFC94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureCalculatorLib", "TemperatureCalculatorLib\TemperatureCalculatorLib.csproj", "{455CAD0A-BF12-4AC7-891A-C75673663E90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureCalculatorLib", "TemperatureCalculatorLib\TemperatureCalculatorLib.csproj", "{455CAD0A-BF12-4AC7-891A-C75673663E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITemperatureRegulatorLib", "ITemperatureRegulator\ITemperatureRegulatorLib.csproj", "{B9F78AF5-6FB3-48DA-AA39-81C6448C24FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITemperatureRegulatorLib", "ITemperatureRegulator\ITemperatureRegulatorLib.csproj", "{B9F78AF5-6FB3-48DA-AA39-81C6448C24FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureRegulatorLib", "TemperatureRegulatorLib\TemperatureRegulatorLib.csproj", "{448F0B55-CAE6-4474-A96A-4BBDF0505E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemperatureRegulatorLib", "TemperatureRegulatorLib\TemperatureRegulatorLib.csproj", "{448F0B55-CAE6-4474-A96A-4BBDF0505E70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITimerControllerLib", "ITimerController\ITimerControllerLib.csproj", "{37DE93F0-4499-498B-85C2-618A769E839C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITimerControllerLib", "ITimerController\ITimerControllerLib.csproj", "{37DE93F0-4499-498B-85C2-618A769E839C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerControllerLib", "TimerControllerLib\TimerControllerLib.csproj", "{9A9E14D5-555F-42AD-A9C8-40F764343E2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimerControllerLib", "TimerControllerLib\TimerControllerLib.csproj", "{9A9E14D5-555F-42AD-A9C8-40F764343E2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IECUObserverLib", "IECULib\IECUObserverLib.csproj", "{AE977F95-8724-4D4C-96E0-6A2FF1081A52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IECUObserverLib", "IECULib\IECUObserverLib.csproj", "{AE977F95-8724-4D4C-96E0-6A2FF1081A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoClimateControlleLib.Test", "AutoClimateControlleLib.Test\AutoClimateControlleLib.Test.csproj", "{C9085FD1-EF2E-4297-BE82-BB2228F37180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IECUSystemLib", "IECUSystemLib\IECUSystemLib.csproj", "{11C1AF43-10E0-4262-AA98-6508FA3409D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{AE977F95-8724-4D4C-96E0-6A2FF1081A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE977F95-8724-4D4C-96E0-6A2FF1081A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE977F95-8724-4D4C-96E0-6A2FF1081A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9085FD1-EF2E-4297-BE82-BB2228F37180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9085FD1-EF2E-4297-BE82-BB2228F37180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9085FD1-EF2E-4297-BE82-BB2228F37180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9085FD1-EF2E-4297-BE82-BB2228F37180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C1AF43-10E0-4262-AA98-6508FA3409D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C1AF43-10E0-4262-AA98-6508FA3409D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C1AF43-10E0-4262-AA98-6508FA3409D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C1AF43-10E0-4262-AA98-6508FA3409D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
